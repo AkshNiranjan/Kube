@@ -79,4 +79,4 @@ handlePost =
         result.summary = "result from simple-app - changed version";
         res.writeHead(200, { 'Content-Type': 'application/json' });
         res.end(JSON.stringify(result));
-}
+    }
